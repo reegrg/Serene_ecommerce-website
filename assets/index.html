@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="main-container">
+            <div class="website-logo">
+                <img src="./images/logo.png" alt="" height="160px">
+            </div>
+            <div>
+                <ul class="menu-lists">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="elements">
+                <button id="sign-in">Sign in</button>  
+                <button id="toggle-icon" onclick="darkMode()"><img src="./images/day.png" height="100px"></button>
+                  
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slide-container">
+            <div class="slideShow">
+                <img src="images/slide1.png">
+            </div>
+            <div class="slideShow">
+                <img src="images/slide2.png">
+            </div>
+            <div class="slideShow">
+                <img src="images/slide3.jpg">
+            </div>
+
+            <nav>
+                <button class="prev" onclick="goPrev()">&#10094</button>
+                <button class="next" onclick="goNext()">&#10095</button>
+            </nav>
+
+        </div>
+        
+        <h2 id="caption">Best Skincare Deals!</h2>
+        <div class="card-container">
+            
+            <div class="card">
+                <div class="img-box">
+                    <img src="./images/img1.png" alt="">
+                </div>
+                <div class="heading">
+                    <p id="heading">The Derma Co. X Dr V Peptide Hydrating Toner</p>
+                </div>
+               <div class="product-content">
+                <p id="net-vol">100ml</p>
+                <h3>Rs. 438</h3>
+               </div>
+                
+                
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="./images/img2.png" alt="">
+                </div>
+                <div class="heading">
+                    <p id="heading">Coconut Milk & Peptides Soft & Shine Shampoo </p>
+                </div>
+               <div class="product-content">
+                
+                <p id="net-vol">500ml</p>
+                <h3>Rs. 599</h3>
+               </div>
+            </div>
+
+
+            <div class="card">
+              <div class="img-box">
+                    <img src="./images/img3.png" alt="">
+                </div>
+                <div class="heading">
+                    <p id="heading">NIVEA Vit E Body Milk Serum - 5 In 1 </p>
+                </div>
+               <div class="product-content">
+               
+                <p id="net-vol">100ml</p>
+                <h3>Rs. 438</h3>
+               </div>
+                
+            </div>
+
+            <div class="card">
+               <div class="img-box">
+                    <img src="./images/img4.jpg" alt="">
+                </div>
+                <div class="heading">
+                    <p id="heading">Dr. Sheth's Mineral Sunscreen </p>
+                </div>
+               <div class="product-content">
+                
+                <p id="net-vol">50g</p>
+                <h3>Rs. 622</h3>
+               </div>
+                
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="./images/img5.png" alt="">
+                </div>
+                
+                <div class="heading">
+                    <p id="heading">Minimalist 2% Salicylic Acid + LHA Face Cleanser</p>
+                </div>
+               <div class="product-content">
+
+                <p id="net-vol">100ml</p>
+                <h3>Rs. 299</h3>
+               </div>
+                
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="first">
+                    <h2>Shop now</h2>
+                    <ul>
+                        <li>Skincare</li>
+                        <li>bodycare</li>
+                        <li>haircare</li>
+                        <li>Gifts</li>
+                    </ul>
+                </div>
+                <div class="second">
+                    <h2>Help</h2>
+                    <ul>
+                        <li>Contact us</li>
+                        <li>Frequently asked questions</li>
+                        <li>Cancellation & Return</li>
+                        <li>Shipping & Delivery</li>
+                    </ul>
+                </div>
+                <div class="third">
+                    <p>Show us some <span><i class="fa-solid fa-heart" style="color: #fb0e3d;"></i></span> on social media</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p id="footer">COPYRIGHT &#169;2024 SERENE, All rights reserved | Designed by Reena</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
